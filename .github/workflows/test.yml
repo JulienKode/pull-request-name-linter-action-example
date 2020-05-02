@@ -9,5 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Install Dependencies
-        run: npm install @commitlint/config-conventional
+        run: yarn --frozen-lockfile
       - uses: JulienKode/pull-request-name-linter-action@v0.1.2
