@@ -4,6 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/config-conventional": "^8.3.4"
+    "@commitlint/config-conventional": "16.0.0"
   }
 }
